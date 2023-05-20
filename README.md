@@ -6,8 +6,8 @@ And who knows, maybe it isn't encrypted at all.
 
 After building you can run it in a terminal as follows:
 
-## To encipher and hide the key:
+#### To encipher and hide the key:
 ./StealthCrypt -m "This is a test" -t "Not really." -i new.png
 
-## To decipher:
+#### To decipher:
 ./StealthCrypt -d -i new.png -t "This is a test"
